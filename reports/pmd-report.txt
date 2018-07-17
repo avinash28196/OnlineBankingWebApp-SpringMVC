@@ -1,0 +1,198 @@
+src/com/cg/banking/controller/BankingController.java:23:	Each class should declare at least one constructor
+src/com/cg/banking/controller/BankingController.java:23:	This class has too many methods, consider refactoring it.
+src/com/cg/banking/controller/BankingController.java:23:	headerCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:27:	fieldCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:31:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:34:	Parameter 'service' is not assigned and could be declared final
+src/com/cg/banking/controller/BankingController.java:34:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:41:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:45:	Comment is too large: Too many lines
+src/com/cg/banking/controller/BankingController.java:54:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:61:	Comment is too large: Too many lines
+src/com/cg/banking/controller/BankingController.java:62:	Comment is too large: Line too long
+src/com/cg/banking/controller/BankingController.java:82:	Parameter 'adminId' is not assigned and could be declared final
+src/com/cg/banking/controller/BankingController.java:82:	Parameter 'password' is not assigned and could be declared final
+src/com/cg/banking/controller/BankingController.java:82:	Parameter 'request' is not assigned and could be declared final
+src/com/cg/banking/controller/BankingController.java:82:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:89:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/banking/controller/BankingController.java:94:	Local variable 'session' could be declared final
+src/com/cg/banking/controller/BankingController.java:95:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/banking/controller/BankingController.java:103:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:111:	Parameter 'model' is not assigned and could be declared final
+src/com/cg/banking/controller/BankingController.java:111:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:117:	Parameter 'admin' is not assigned and could be declared final
+src/com/cg/banking/controller/BankingController.java:117:	Parameter 'result' is not assigned and could be declared final
+src/com/cg/banking/controller/BankingController.java:117:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:121:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/banking/controller/BankingController.java:127:	Comment is too large: Too many lines
+src/com/cg/banking/controller/BankingController.java:170:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:172:	The String literal "pages/bootTrans" appears 5 times in this file; the first occurrence is on line 172
+src/com/cg/banking/controller/BankingController.java:176:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:179:	Found 'DD'-anomaly for variable 'list' (lines '179'-'180').
+src/com/cg/banking/controller/BankingController.java:185:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:188:	Found 'DD'-anomaly for variable 'list' (lines '188'-'189').
+src/com/cg/banking/controller/BankingController.java:194:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:197:	Found 'DD'-anomaly for variable 'list' (lines '197'-'198').
+src/com/cg/banking/controller/BankingController.java:203:	publicMethodCommentRequirement Required
+src/com/cg/banking/controller/BankingController.java:206:	Found 'DD'-anomaly for variable 'list' (lines '206'-'207').
+src/com/cg/banking/dao/BankingDaoImpl.java:14:	Each class should declare at least one constructor
+src/com/cg/banking/dao/BankingDaoImpl.java:14:	headerCommentRequirement Required
+src/com/cg/banking/dao/BankingDaoImpl.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/banking/dao/BankingDaoImpl.java:17:	fieldCommentRequirement Required
+src/com/cg/banking/dao/BankingDaoImpl.java:21:	Parameter 'admin' is not assigned and could be declared final
+src/com/cg/banking/dao/BankingDaoImpl.java:21:	publicMethodCommentRequirement Required
+src/com/cg/banking/dao/BankingDaoImpl.java:29:	publicMethodCommentRequirement Required
+src/com/cg/banking/dao/BankingDaoImpl.java:30:	Local variable 'query' could be declared final
+src/com/cg/banking/dao/BankingDaoImpl.java:31:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/banking/dao/BankingDaoImpl.java:35:	publicMethodCommentRequirement Required
+src/com/cg/banking/dao/BankingDaoImpl.java:36:	Local variable 'query' could be declared final
+src/com/cg/banking/dao/BankingDaoImpl.java:37:	Local variable 'monthList' could be declared final
+src/com/cg/banking/dao/BankingDaoImpl.java:37:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/banking/dao/BankingDaoImpl.java:43:	publicMethodCommentRequirement Required
+src/com/cg/banking/dao/BankingDaoImpl.java:44:	Local variable 'query' could be declared final
+src/com/cg/banking/dao/BankingDaoImpl.java:45:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/banking/dao/BankingDaoImpl.java:49:	publicMethodCommentRequirement Required
+src/com/cg/banking/dao/BankingDaoImpl.java:50:	Local variable 'query' could be declared final
+src/com/cg/banking/dao/BankingDaoImpl.java:51:	Potential violation of Law of Demeter (object not created locally)
+src/com/cg/banking/dao/IBankingDao.java:8:	headerCommentRequirement Required
+src/com/cg/banking/dao/IBankingDao.java:10:	publicMethodCommentRequirement Required
+src/com/cg/banking/dao/IBankingDao.java:12:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/banking/dao/IBankingDao.java:12:	publicMethodCommentRequirement Required
+src/com/cg/banking/dao/IBankingDao.java:14:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/banking/dao/IBankingDao.java:14:	publicMethodCommentRequirement Required
+src/com/cg/banking/dao/IBankingDao.java:16:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/banking/dao/IBankingDao.java:16:	publicMethodCommentRequirement Required
+src/com/cg/banking/dao/IBankingDao.java:18:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/banking/dao/IBankingDao.java:18:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:24:	Comment is too large: Line too long
+src/com/cg/banking/dto/Admin.java:25:	Each class should declare at least one constructor
+src/com/cg/banking/dto/Admin.java:25:	headerCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:29:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/banking/dto/Admin.java:29:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:34:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/banking/dto/Admin.java:34:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:37:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/banking/dto/Admin.java:37:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:39:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:41:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:44:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/banking/dto/Admin.java:44:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:46:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:48:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:50:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:52:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:55:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/banking/dto/Admin.java:55:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:60:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/banking/dto/Admin.java:60:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:64:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/banking/dto/Admin.java:64:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:65:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:68:	Parameter 'userID' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:68:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:71:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:74:	Parameter 'accID' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:74:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:77:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:80:	Parameter 'accType' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:80:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:83:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:86:	Parameter 'name' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:86:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:89:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:92:	Parameter 'email' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:92:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:95:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:98:	Parameter 'mobileNo' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:98:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:101:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:104:	Parameter 'address' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:104:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:107:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:110:	Parameter 'pancard' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:110:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:113:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:116:	Parameter 'question' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:116:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:119:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:122:	Parameter 'answer' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:122:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:125:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:128:	Parameter 'accBal' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:128:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:131:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:134:	Parameter 'openDate' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:134:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:137:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Admin.java:140:	Parameter 'password' is not assigned and could be declared final
+src/com/cg/banking/dto/Admin.java:140:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:17:	headerCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:24:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:30:	Fields should be declared at the top of the class, before any method declarations, constructors, initializers or inner classes.
+src/com/cg/banking/dto/Transcation.java:30:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:35:	Avoid excessively long variable names like transactionDescription
+src/com/cg/banking/dto/Transcation.java:35:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:38:	Variables should start with a lowercase character, 'DateOfTransaction' starts with uppercase character.
+src/com/cg/banking/dto/Transcation.java:38:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:41:	fieldCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:48:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:52:	Parameter 'dateOfTransaction' is not assigned and could be declared final
+src/com/cg/banking/dto/Transcation.java:52:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:56:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:60:	Parameter 'transactionId' is not assigned and could be declared final
+src/com/cg/banking/dto/Transcation.java:60:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:64:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:68:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/cg/banking/dto/Transcation.java:68:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:72:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:76:	Parameter 'transactionamount' is not assigned and could be declared final
+src/com/cg/banking/dto/Transcation.java:76:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:80:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:84:	Avoid excessively long variable names like transactionDescription
+src/com/cg/banking/dto/Transcation.java:84:	Parameter 'transactionDescription' is not assigned and could be declared final
+src/com/cg/banking/dto/Transcation.java:84:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:89:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:94:	Document empty constructor
+src/com/cg/banking/dto/Transcation.java:94:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:98:	Parameter 'accountNumber' is not assigned and could be declared final
+src/com/cg/banking/dto/Transcation.java:98:	Parameter 'transactionId' is not assigned and could be declared final
+src/com/cg/banking/dto/Transcation.java:98:	publicMethodCommentRequirement Required
+src/com/cg/banking/dto/Transcation.java:99:	Avoid excessively long variable names like transactionDescription
+src/com/cg/banking/dto/Transcation.java:99:	Parameter 'dateOfTransaction' is not assigned and could be declared final
+src/com/cg/banking/dto/Transcation.java:99:	Parameter 'transactionDescription' is not assigned and could be declared final
+src/com/cg/banking/dto/Transcation.java:100:	Parameter 'transactionamount' is not assigned and could be declared final
+src/com/cg/banking/dto/Transcation.java:110:	publicMethodCommentRequirement Required
+src/com/cg/banking/service/BankingServiceImpl.java:15:	Each class should declare at least one constructor
+src/com/cg/banking/service/BankingServiceImpl.java:15:	headerCommentRequirement Required
+src/com/cg/banking/service/BankingServiceImpl.java:16:	Use explicit scoping instead of the default package private level
+src/com/cg/banking/service/BankingServiceImpl.java:17:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/com/cg/banking/service/BankingServiceImpl.java:17:	fieldCommentRequirement Required
+src/com/cg/banking/service/BankingServiceImpl.java:19:	Parameter 'adminId' is not assigned and could be declared final
+src/com/cg/banking/service/BankingServiceImpl.java:19:	Parameter 'password' is not assigned and could be declared final
+src/com/cg/banking/service/BankingServiceImpl.java:19:	publicMethodCommentRequirement Required
+src/com/cg/banking/service/BankingServiceImpl.java:21:	Avoid unnecessary if..then..else statements when returning booleans
+src/com/cg/banking/service/BankingServiceImpl.java:21:	Position literals first in String comparisons
+src/com/cg/banking/service/BankingServiceImpl.java:21:	Position literals first in String comparisons
+src/com/cg/banking/service/BankingServiceImpl.java:24:	A method should have only one exit point, and that should be the last statement in the method
+src/com/cg/banking/service/BankingServiceImpl.java:36:	Parameter 'admin' is not assigned and could be declared final
+src/com/cg/banking/service/BankingServiceImpl.java:36:	publicMethodCommentRequirement Required
+src/com/cg/banking/service/BankingServiceImpl.java:41:	publicMethodCommentRequirement Required
+src/com/cg/banking/service/BankingServiceImpl.java:47:	publicMethodCommentRequirement Required
+src/com/cg/banking/service/BankingServiceImpl.java:53:	publicMethodCommentRequirement Required
+src/com/cg/banking/service/BankingServiceImpl.java:59:	publicMethodCommentRequirement Required
+src/com/cg/banking/service/IBankingService.java:8:	headerCommentRequirement Required
+src/com/cg/banking/service/IBankingService.java:10:	Avoid modifiers which are implied by the context
+src/com/cg/banking/service/IBankingService.java:10:	publicMethodCommentRequirement Required
+src/com/cg/banking/service/IBankingService.java:12:	publicMethodCommentRequirement Required
+src/com/cg/banking/service/IBankingService.java:14:	Avoid modifiers which are implied by the context
+src/com/cg/banking/service/IBankingService.java:14:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/banking/service/IBankingService.java:14:	publicMethodCommentRequirement Required
+src/com/cg/banking/service/IBankingService.java:16:	Avoid modifiers which are implied by the context
+src/com/cg/banking/service/IBankingService.java:16:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/banking/service/IBankingService.java:16:	publicMethodCommentRequirement Required
+src/com/cg/banking/service/IBankingService.java:18:	Avoid modifiers which are implied by the context
+src/com/cg/banking/service/IBankingService.java:18:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/banking/service/IBankingService.java:18:	publicMethodCommentRequirement Required
+src/com/cg/banking/service/IBankingService.java:20:	Avoid modifiers which are implied by the context
+src/com/cg/banking/service/IBankingService.java:20:	Avoid using implementation types like 'ArrayList'; use the interface instead
+src/com/cg/banking/service/IBankingService.java:20:	publicMethodCommentRequirement Required

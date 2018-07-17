@@ -1,0 +1,46 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.2.xsd
+		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.2.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.2.xsd">
+
+	<context:annotation-config />
+	<context:component-scan base-package="com.cg.banking"/>
+	
+	 
+	 
+	<!-- This bean will hold references to our database -->
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver" />
+		<property name="url" value="jdbc:oracle:thin:@10.219.34.3:1521:orcl" />
+		<property name="username" value="trg331" />
+		<property name="password" value="training331" />
+	</bean>
+	
+	<!-- Spring way of entity manager factory configuration -->
+	
+	<bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+          <property name="dataSource" ref="dataSource"/>
+          <property name="packagesToScan" value="com.cg.banking.dto"/>
+          <property name="persistenceProviderClass" value="org.hibernate.jpa.HibernatePersistenceProvider"/>
+          <property name="jpaPropertyMap">
+              <map>
+                  <entry key="hibernate.dialect" value="org.hibernate.dialect.Oracle10gDialect"/>
+                  <entry key="hibernate.hbm2ddl.auto" value="update"/>
+                   <entry key="hibernate.show_sql" value="true"/>
+              </map>
+          </property>
+      </bean>
+      
+	<!-- This bean will handle all transaction within an application -->
+	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+		<property name="entityManagerFactory" ref="entityManagerFactory"/>
+	</bean>
+	
+	<!-- This is required to handle transactions via Annotations like @Transactional -->
+	<tx:annotation-driven transaction-manager="transactionManager"/>
+	
+
+</beans>
