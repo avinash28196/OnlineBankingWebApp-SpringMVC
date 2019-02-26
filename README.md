@@ -1,5 +1,5 @@
 # OnlineBankingWebApp-SpringMVC
-Banking Management (Admin) Web Application Using Spring MVC Architecture and Hibernate MySql.
+Banking Management (Admin) Web Application Using Spring MVC Architecture and using Oracle Database.
 
 
 
@@ -8,5 +8,5 @@ Banking Management (Admin) Web Application Using Spring MVC Architecture and Hib
 
 ACHITECURE 
 
-In Progress
+
 
